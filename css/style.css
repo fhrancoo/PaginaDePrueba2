@@ -1,0 +1,130 @@
+body {
+    font-family: "Lato", sans-serif;
+    margin: 0px 0px 0px 0px;
+}
+nav {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(56, 94, 90);   /*Color de la Pagina*/
+    display: flex;
+    align-items: center;
+    z-index: 1;
+
+}
+
+.PrimerDIV {
+    position: relative;
+    top: 60px;
+    width: 100%;
+    height: 35em;
+}
+
+#Abrir-Nav {
+    margin-left: 5px;
+    font-size:30px;
+    cursor:pointer;
+}
+.div-colores-padre {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 55%;
+}
+
+#Color {
+    width: 2em;
+    height: 2em;
+    border-radius: 50% 50% 50% 50%;
+    cursor:pointer;
+    background-color: #dc971f;  /*Color de la Pagina*/
+    border: #000 solid 1px;
+}
+#Color-1 {
+    width: 2em;
+    height: 2em;
+    border-radius: 50% 50% 50% 50%;
+    cursor:pointer;
+    background-color: rgb(56,94,90);
+    border: #000 solid 1px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(56, 94, 90);         /*Color de la Pagina*/
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 40px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;          /* Color de la Pagina */
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, a:focus {
+    color: #f1f1f1;        /*Color de la Pagina*/
+}
+
+.Cerrar-Nav {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px !important;
+    margin-left: 50px;
+}
+#Subir {
+    /* margin: 0px 15px 15px 0px; */
+    border-radius: 50% 50% 50% 50%;
+    /* display: inline-block; */
+    display: none;
+    width: 4em;
+    height: 4em;
+    background-color: rgb(56,94,90);
+    position: fixed;
+    top: 87%;
+    left: 94%;
+    
+}
+#ImgSubir {
+    border-radius: 50% 50% 50% 50%;
+    width: 4em;
+    height: 4em;
+    cursor: pointer;
+}
+.primer-parrafo {
+    position: relative;
+    top: 60px;
+    background-color: cadetblue;
+    overflow: hidden;
+
+}
+.texto-1 {
+    text-align: center;
+    font-size: 1.2em;
+}
+h2 {
+    text-align: center;
+}
+footer {
+    position: relative;
+    top: 60px;
+    width: 100%;
+    background-color: darkcyan;
+    height: 10em;
+    overflow: hidden;
+}
+

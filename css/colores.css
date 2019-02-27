@@ -1,0 +1,23 @@
+nav {
+    background-color: rgb(56, 94, 90);   /*Color de la Pagina*/
+
+}
+.sidenav {
+    background-color: rgb(56, 94, 90);         /*Color de la Pagina*/
+}
+
+.sidenav a {
+    color: black;          /*Color de la Pagina*/
+}
+
+.sidenav a:hover,
+.offcanvas a:focus {
+    color: #f1f1f1;        /*Color de la Pagina*/
+}
+
+#Color {
+    background-color: #dc971f;
+}
+#Color-2 {
+    background-color: #111;
+}

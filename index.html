@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slaider.css">
+    <title>Document</title>
+    <script src="js/smooth-scroll.min.js"></script>
+
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]', { speed: 1200 });
+    </script>
+</head>
+
+<body>
+    <!--------------------------------- BARRA DE NAVEGACION -------------------------------------->
+
+    <nav id="nav-cambio">
+        <div id="mySidenav" class="sidenav">
+            <a class="Cerrar-Nav" onclick="closeNav()">×</a>
+            <a href="#" onclick="closeNav()">Nosotros</a>
+            <a href="#" onclick="closeNav()">Servicios</a>
+            <a href="#" onclick="closeNav()">Clientes</a>
+            <a href="#" onclick="closeNav()">Contacto</a>
+            <div class="div-colores-padre">
+                <div id="Color" onclick="color1()"></div>
+                <div id="Color-1" onclick="color2()"></div>
+            </div>
+        </div>
+        <span id="Abrir-Nav" onclick="openNav()">☰</span>
+
+    </nav>
+
+    <!-------------------------------------- CARRUCEL ------------------------------------------------>
+
+    <div class="slideshow-container PrimerDIV">
+
+        <div class="mySlides fade">
+            <img class="slaider-img" id="Imagen1" alt="" src="img/1.jpg" />
+        </div>
+
+        <div class="mySlides fade">
+            <img class="slaider-img" id="Imagen2" alt="" src="img/2.jpg" />
+        </div>
+
+        <div class="mySlides fade">
+            <img class="slaider-img" id="Imagen3" alt="" src="img/3.jpg" />
+        </div>
+    </div>
+
+    <!-------------------------------------- SECCION 2 ------------------------------------------------>
+
+    <div class="primer-parrafo">
+        <h2>NOSOTROS</h2>
+        <p class="texto-1">
+            XEX, soluciones en software, es una empresa de servicios informáticos fundada a principios de 1994 por
+            un grupo de profesionales informáticos con alta experiencia en la temática y en la faz Administrativa –
+            Contable.
+            <br><br>
+            Su objetivo primordial es proveer soluciones de alta calidad a pequeñas y medianas empresas, que requieran
+            este atributo como diferencia competitiva.
+            <br><br>
+            Basa su estrategia de crecimiento en la relación directa con sus clientes, priorizando la calidad del
+            servicio prestado.
+            <br><br>
+            Desde su nacimiento, XEX ha prestado especial atención a la asistencia técnica y el soporte adecuado,
+            sin los cuales es imposible transformar herramientas tecnológicas en soluciones reales, concentrando
+            nuestros esfuerzos en el desarrollo de productos informáticos llave en mano, brindando un excelente
+            servicio pre y post-venta.
+            <br><br>
+            XEX se encuentra inscripta en el REGISTRO INDUSTRIAL DE LA PROVINCIA DE CÓRDOBA, como industria de
+            software. XEX es un Microsoft Partner Program.</p>
+
+    </div>
+
+    <footer>
+        <h2>FRANCO OLIVERO</h2>
+    </footer>
+
+    <div id="Subir">
+        <a href="#nav-cambio">
+            <img id="ImgSubir" src="img/Arriba-Sin-Fondo.png" alt="Arriba">
+        </a>
+    </div>
+
+    <!-- Enlaces javascript -->
+    <script src="js/nav.js"></script>
+    <script src="js/slaider.js"></script>
+    <script src="js/colores.js"></script>
+    <script src="js/eventos.js"></script>
+
+</body>
+
+</html>
