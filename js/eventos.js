@@ -1,7 +1,7 @@
-window.addEventListener("scroll",Scroll);
+window.addEventListener("scroll", Scroll);
 
-function Scroll(){
-    
+function Scroll() {
+
     var Subiir = document.getElementById('Subir');
     var Ycursor = window.pageYOffset;
 
@@ -9,20 +9,24 @@ function Scroll(){
         Subiir.style.display = "inline-block";
         Subiir.style.animationDuration = "5000";
     }
-    else{
+    else {
         Subiir.style.display = "none";
-        }
-
     }
 
+}
 
-/* function Scroll(){
-    var top = document.getElementById('header');
-    var ypos = window.pageYOffset;
-    if(ypos > 587) {
-        top.style.opacity = "0";
+window.addEventListener("scroll", MostrarBarra);
+function MostrarBarra() {
+
+    var barra = document.getElementById('nav-cambio');
+    var Ycursor = window.pageYOffset;
+
+    if (Ycursor > 100) {
+        barra.style.display = "flex";
+        barra.style.animationDuration = "5000";
     }
-    else{
-        top.style.opacity = "1";
-        }
-    } */
+    else {
+        barra.style.display = "none";
+    }
+
+}

@@ -19,6 +19,9 @@
     <!--------------------------------- BARRA DE NAVEGACION -------------------------------------->
 
     <nav id="nav-cambio">
+
+        <div class="Lang"><img src="img/idioma.png" alt=""></div>
+
         <div id="mySidenav" class="sidenav">
             <a class="Cerrar-Nav" onclick="closeNav()">×</a>
             <a href="#" onclick="closeNav()">Nosotros</a>
@@ -37,6 +40,11 @@
     <!-------------------------------------- CARRUCEL ------------------------------------------------>
 
     <div class="slideshow-container PrimerDIV">
+
+        <div class="control-img">
+            <div id="prev" onclick="plusIndex(+1)"><span>&#60;</span></div>
+            <div id="next" onclick="plusIndex(-1)"><span>&#62;</span></div>
+        </div>
 
         <div class="mySlides fade">
             <img class="slaider-img" id="Imagen1" alt="" src="img/1.jpg" />
