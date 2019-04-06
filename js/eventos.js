@@ -25,7 +25,7 @@ function MostrarBarra() {
         barra.style.display = "flex";
         barra.style.animationDuration = "5000";
     }
-    else {
+    else if (Ycursor < 100) {
         barra.style.display = "none";
     }
 
