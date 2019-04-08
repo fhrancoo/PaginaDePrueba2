@@ -28,5 +28,13 @@ function MostrarBarra() {
     else if (Ycursor < 100) {
         barra.style.display = "none";
     }
-
+}
+function traduccion() {
+    var tra = document.getElementById("tracc");
+    tra.style.display = "flex";
+    setTimeout(traduccionCierre, 3000);
+}
+function traduccionCierre() {
+    var trad = document.getElementById("tracc");
+    trad.style.display = "none";
 }

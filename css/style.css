@@ -142,4 +142,26 @@ nav .Lang img {
     width: 100%;
     height: 100%;
 }
-
+#tracc {
+    display: none;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.239);
+    width: 100%;
+    height: 100px;
+    border-radius: 10px;
+    flex-direction: column;
+    top: 35px;
+    /* display: flex; */
+    justify-content: space-around;
+    align-items: center;
+    cursor: default;
+}
+#tracc img {
+    width: 100%;
+    height: 100%;
+}
+#tracc div {
+    cursor: pointer;
+    width: 80%;
+    height: 1.5em;
+}
