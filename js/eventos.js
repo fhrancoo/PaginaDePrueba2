@@ -7,7 +7,8 @@ function Scroll() {
 
     if (Ycursor > 100) {
         Subiir.style.display = "inline-block";
-        Subiir.style.animationDuration = "5000";
+        Subiir.style.animationDuration = "4s";
+        Subiir.style.animationName = "SubirAnimacion"
     }
     else {
         Subiir.style.display = "none";
@@ -23,7 +24,8 @@ function MostrarBarra() {
 
     if (Ycursor > 100) {
         barra.style.display = "flex";
-        barra.style.animationDuration = "5000";
+        barra.style.animationDuration = "2s";
+        barra.style.animationName = "BarraAnimacion"
     }
     else if (Ycursor < 100) {
         barra.style.display = "none";
