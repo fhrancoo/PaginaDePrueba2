@@ -15,13 +15,6 @@ nav {
     z-index: 2;
     display: none;
 }
-
-.PrimerDIV {
-    position: relative;
-    width: 100%;
-    height: 35em;
-}
-
 #Abrir-Nav {
     margin-left: 5px;
     font-size:30px;
@@ -102,36 +95,23 @@ nav {
     height: 4em;
     cursor: pointer;
 }
-.primer-parrafo {
-    position: relative;
-    background-color: cadetblue;
-    overflow: hidden;
-
-}
-.texto-1 {
-    text-align: center;
-    font-size: 1.2em;
-}
-h2 {
-    text-align: center;
-}
 footer {
     position: relative;
     width: 100%;
-    background-color: darkcyan;
+    color: white;
+    background-color: black;
     height: 10em;
     overflow: hidden;
 }
 
 /* Acomodar Todo en Uno */
-body::-webkit-scrollbar {
+/* body::-webkit-scrollbar {
     background-color: rgb(56, 94, 90); 
     width: 7px;
 }
 body::-webkit-scrollbar-thumb {
     background-color: #dc971f;
-    border-radius: 5px;
-}
+} */
 .Lang {
     left: 95%;
     position: absolute;
@@ -181,4 +161,99 @@ nav .Lang img {
     to {
         opacity: 0.6;
     }
+}
+
+.Padre1 {
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    justify-content: space-between;
+
+}
+.Hijo1 {
+    width: 50%;
+}
+.Hijo1 img {
+    width: 100%;
+    height: 100%;
+}
+.Hijo2 {
+    width: 50%;
+    background-color: #222f3e;
+}
+.Padre2 {
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    justify-content: space-between;
+
+}
+.Hijo3 {
+    width: 50%;
+    background-color: #576574;
+}
+.Hijo4 {
+    width: 50%;
+}
+.Hijo4 img {
+    width: 100%;
+    height: 100%;
+}
+.Padre3 {
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    justify-content: space-between;
+
+}
+.Hijo5 {
+    width: 50%;
+}
+.Hijo5 img {
+    width: 100%;
+    height: 100%;
+}
+.Hijo6 {
+    width: 50%;
+    background-color: #222f3e;
+}
+.text-carrusel {
+    background-color: rgba(49, 46, 46, 0.561);
+    position: absolute;
+    width: 45%;
+    height: 9em;
+    padding: 1%;
+    left: 0px;
+
+}
+.text-carrusel span {
+    margin: auto;
+    position: absolute;
+    color: ivory;
+    left: 15%;
+}
+/* -------------------------------------------- */
+h2 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    filter: drop-shadow(1px 1px 2px #ced6e0);
+    color: #ced6e0;
+    font-size: 2em;
+    text-align: left;
+    margin: 4.5% 7% 0% 7%;
+
+}
+.txt-empresa {
+    text-align: left;
+    line-height: 2.5em;
+    margin: 5% 7% 0% 7%;
+    font-family: 'Scope One', serif;
+    font-size: 1.2em;
+    color: #f5f6fa;
+}
+hr {
+    position: absolute;
+    position: left 0px;
+    color: ivory;
+    border-radius: 0% 50% 50% 0%;
+    width: 20%;
 }
